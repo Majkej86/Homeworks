@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(39, 103, 148, 1) 50%, rgba(76, 142, 182, 1) 100%);
+    margin: 0;
+    height: 2000px;
+}
+
+.top_bar {
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(66, 66, 66);
+    box-shadow: 0px 9px 8px 0px rgba(0, 0, 0, 0.52);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white
+}
+
+.top_bar ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 70px;
+    list-style-type: none;
+}
+
+.top_bar ul li {
+    display: inline;
+    margin-right: 40px;
+    margin-left: 40px;
+    text-transform: capitalize;
+}
+
+.top_bar ul li a {
+    font-family: 'Lobster', cursive;
+    color: white;
+    transition: .55s all;
+}
+
+.top_bar ul li a:hover {
+    color: rgb(248, 141, 0);
+}
+
+
+.social_media {
+    right: 0;
+    top: 50%;
+    box-shadow: -3px 3px 3px 3px rgba(0, 0, 0, 0.52);
+    position: fixed;
+}
+
+.social_media ul {
+    margin-right: 5px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.social_media ul li a {
+    height: 50px;
+    width: 50px;
+    display: block;
+    background: #3b3b3b;
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    transition: .55s all;
+
+}
+
+.social_media .facebook a:hover {
+    background-color: rgb(34, 54, 146);
+}
+
+.social_media .instagram a:hover {
+    background: -webkit-radial-gradient(bottom left, rgb(251, 198, 92), rgb(213, 51, 140), rgb(90, 98, 211));
+}
