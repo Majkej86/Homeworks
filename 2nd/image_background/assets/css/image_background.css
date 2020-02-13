@@ -4,6 +4,10 @@
 }
 
 body {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
     background: url(https://pixabay.com/get/52e6d5464852af14f6d1867dda6d49214b6ac3e45659704c7c2c72d690/uav-4605203_1920.jpg);
     z-index: -1;
 }
