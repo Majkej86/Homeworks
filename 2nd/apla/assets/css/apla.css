@@ -20,14 +20,13 @@ body {
 }
 
 .title h1 {
-    display: inline;
+    margin: 0;
     padding: 40px;
     font-size: 60px;
     color: rgb(214, 68, 68);
 }
 
 .apla {
-    min-height: 10vh;
     width: 100%;
     bottom: 0;
     position: absolute;
